@@ -39,7 +39,7 @@
 					<Item subMenuId="search-jumpUp" name="Skok nahor"/>
 					<Item subMenuId="search-jumpDown" name="Skok nadol"/>
 					<Item subMenuId="search-bookmark" name="Záložka"/>
-                    <Item subMenuId="view-currentFileIn" name="Zobraziť aktuálny súbor v prehliadači"/>
+					<Item subMenuId="view-currentFileIn" name="Zobraziť aktuálny súbor v prehliadači"/>
 					<Item subMenuId="view-showSymbol" name="Zobraziť znak"/>
 					<Item subMenuId="view-zoom" name="Lupa"/>
 					<Item subMenuId="view-moveCloneDocument" name="Presunúť/Klonovať aktuálny dokument"/>
@@ -78,8 +78,8 @@
                     <Item id="41003" name="Zatvoriť"/>
                     <Item id="41004" name="Z&amp;atvoriť všetko"/>
                     <Item id="41005" name="Zatvoriť všetky okrem aktuálneho"/>
-					<Item id="41009" name="Zatvoriť všetky vľavo"/>
-					<Item id="41018" name="Zatvoriť všetky vpravo"/>
+                    <Item id="41009" name="Zatvoriť všetky vľavo"/>
+                    <Item id="41018" name="Zatvoriť všetky vpravo"/>
                     <Item id="41024" name="Zatvoriť všetky nezmenené"/>
                     <Item id="41006" name="&amp;Uložiť"/>
                     <Item id="41007" name="Ulo&amp;žiť všetko"/>
@@ -302,7 +302,7 @@
 
                     <Item id="48005" name="Importovať doplnky..."/>
                     <Item id="48006" name="Importovať témy..."/>
-					<Item id="48018" name="Úprava kontextového menu"/>
+                    <Item id="48018" name="Úprava kontextového menu"/>
                     <Item id="48009" name="Nastavenie klávesových skratiek..."/>
                     <Item id="48011" name="Preferencie..."/>
                     <Item id="48014" name="Otvoriť priečinok doplnkov..."/>
@@ -316,10 +316,10 @@
 
 					<Item id="49000" name="&amp;Spustiť..."/>
 
-					<Item id="50000" name="Dokončovanie funkcií"/>
+                    <Item id="50000" name="Dokončovanie funkcií"/>
                     <Item id="50001" name="Dokončovanie slov"/>
-					<Item id="50002" name="Pomôcka k parametrom funkcie"/>
-					<Item id="50006" name="Dokončovanie ciest k súborom/priečinkom"/>
+                    <Item id="50002" name="Pomôcka k parametrom funkcie"/>
+                    <Item id="50006" name="Dokončovanie ciest k súborom/priečinkom"/>
 
                     <Item id="42040" name="Otvoriť všetky nedávne súbory"/>
                     <Item id="42041" name="Vymazať zoznam nedávnych súborov"/>
@@ -361,7 +361,7 @@
         <Dialog>
             <Find title="" titleFind="Hľadať" titleReplace="Nahradiť" titleFindInFiles="Hľadať v súboroch" titleMark="Označiť">
                 <Item id="1" 	name="Hľadať ďalší"/>
-				<Item id="1722" name="Smerom dozadu"/>
+                <Item id="1722" name="Smerom dozadu"/>
                 <Item id="2" 	name="Zatvoriť"/>
                 <Item id="1620" name="Hľadať:"/>
                 <Item id="1603" name="Hľadať len &amp;celé slová"/>
@@ -933,15 +933,15 @@
 					<Item id="6323" name="Povoliť automatické aktualizácie programu Notepad++"/>
 					<Item id="6324" name="Prepínanie dokumentov (Ctrl+Tab)"/>
 					<Item id="6331" name="Zobrazovať v záhlaví okna len názov súboru"/>
-                    <Item id="6334" name="Automatické zisťovanie kódovania znakov"/>
-                    <Item id="6335" name="V SQL považovať spätné lomítko za escape znak"/>
-                    <Item id="6337" name="Prípona súboru prac. priestoru:"/>
+					<Item id="6334" name="Automatické zisťovanie kódovania znakov"/>
+					<Item id="6335" name="V SQL považovať spätné lomítko za escape znak"/>
+					<Item id="6337" name="Prípona súboru prac. priestoru:"/>
 					<Item id="6114" name="Povoliť"/>
 					<Item id="6115" name="Automatické odsadzovanie"/>
 					<Item id="6117" name="Povoliť MRU správanie"/>
-                    <Item id="6344" name="Náhľad neaktívnych dokumentov"/>
-                    <Item id="6345" name="Náhľad na karte dokumentu"/>
-                    <Item id="6346" name="Náhľad na mape dokumentu"/>
+					<Item id="6344" name="Náhľad neaktívnych dokumentov"/>
+					<Item id="6345" name="Náhľad na karte dokumentu"/>
+					<Item id="6346" name="Náhľad na mape dokumentu"/>
 				</MISC>
             </Preference>
 
@@ -1043,7 +1043,7 @@
             <UDLRemoveCurrentLang title="Odstrániť aktuálny jazyk" message="Ste si istý?"/>
             <SCMapperDoDeleteOrNot title="Ste si istý?" message="Naozaj chcete odstrániť túto klávesovú skratku?"/>
             <FindCharRangeValueError title="Problém s rozsahom hodnoty" message="Zadajte hodnotu v rozsahu 0 až 255."/>
-			<OpenInAdminMode title="Uloženie zlyhalo" message="Súbor nie je možné uložiť, môže byť chránený. Chcete spustiť Notepad++ v režime správcu?"/>
+            <OpenInAdminMode title="Uloženie zlyhalo" message="Súbor nie je možné uložiť, môže byť chránený. Chcete spustiť Notepad++ v režime správcu?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Uloženie zlyhalo" message="Súbor nie je možné uložiť, môže byť chránený. Chcete spustiť Notepad++ v režime správcu?"/>
             <OpenInAdminModeFailed title="Otvorenie v režime správcu zlyhalo" message="Notepad++ nie je možné spustiť v režime správcu."/>
             <ViewInBrowser title="Zobraziť aktuálny súbor v prehliadači" message="Aplikáciu sa nepodarilo vo vašom systéme nájsť."/>
@@ -1191,17 +1191,17 @@
             <finder-clear-all value="Vymazať všetko"/>
             <finder-open-all value="Otvoriť všetko"/>
             <common-ok value="OK"/>
-			<common-cancel value="Zrušiť"/>
-			<common-name value="Názov: "/>
-			<tabrename-title value="Premenovať aktuálnu kartu"/>
-			<tabrename-newname value="Nový názov: "/>
-			<recent-file-history-maxfile value="Počet súb.: "/>
-			<language-tabsize value="Veľkosť tab.: "/>
-			<userdefined-title-new value="Vytvoriť nový jazyk..."/>
-			<userdefined-title-save value="Uložiť aktuálny jazyk ako..."/>
-			<userdefined-title-rename value="Zmeniť názov aktuálneho jazyka"/>
-			<autocomplete-nb-char value="Počet znakov: "/>
-			<edit-verticaledge-nb-col value="Počet stĺpcov: "/>
+            <common-cancel value="Zrušiť"/>
+            <common-name value="Názov: "/>
+            <tabrename-title value="Premenovať aktuálnu kartu"/>
+            <tabrename-newname value="Nový názov: "/>
+            <recent-file-history-maxfile value="Počet súb.: "/>
+            <language-tabsize value="Veľkosť tab.: "/>
+            <userdefined-title-new value="Vytvoriť nový jazyk..."/>
+            <userdefined-title-save value="Uložiť aktuálny jazyk ako..."/>
+            <userdefined-title-rename value="Zmeniť názov aktuálneho jazyka"/>
+            <autocomplete-nb-char value="Počet znakov: "/>
+            <edit-verticaledge-nb-col value="Počet stĺpcov: "/>
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
