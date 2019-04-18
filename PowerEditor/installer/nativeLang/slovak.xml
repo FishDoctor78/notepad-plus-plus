@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="Slovenčina" filename="slovak.xml" version="7.6.2">
+	<Native-Langue name="Slovenčina" filename="slovak.xml" version="7.6.5">
 		<Menu>
 			<Main>
                 <!-- Main Menu Entries -->
@@ -24,7 +24,7 @@
 					<Item subMenuId="file-openFolder" name="Otvoriť priečinok súboru"/>
 					<Item subMenuId="file-closeMore" name="Zatvoriť viacero súborov"/>
 					<Item subMenuId="file-recentFiles" name="Nedávno otvorené súbory"/>
-					<Item subMenuId="edit-copyToClipboard"  name="Skopírovať do schránky"/>
+					<Item subMenuId="edit-copyToClipboard" name="Skopírovať do schránky"/>
 					<Item subMenuId="edit-indent" name="Odsadiť"/>
 					<Item subMenuId="edit-convertCaseTo" name="Konverzia znakov"/>
 					<Item subMenuId="edit-lineOperations" name="Operácie s riadkom"/>
@@ -39,32 +39,33 @@
 					<Item subMenuId="search-jumpUp" name="Skok nahor"/>
 					<Item subMenuId="search-jumpDown" name="Skok nadol"/>
 					<Item subMenuId="search-bookmark" name="Záložka"/>
-					<Item subMenuId="view-showSymbol"  name="Zobraziť znak"/>
-					<Item subMenuId="view-zoom"  name="Lupa"/>
-					<Item subMenuId="view-moveCloneDocument"  name="Presunúť/Klonovať aktuálny dokument"/>
-					<Item subMenuId="view-tab"  name="Karta dokumentu"/>
+                    <Item subMenuId="view-currentFileIn" name="Zobraziť aktuálny súbor v prehliadači"/>
+					<Item subMenuId="view-showSymbol" name="Zobraziť znak"/>
+					<Item subMenuId="view-zoom" name="Lupa"/>
+					<Item subMenuId="view-moveCloneDocument" name="Presunúť/Klonovať aktuálny dokument"/>
+					<Item subMenuId="view-tab" name="Karta dokumentu"/>
 					<Item subMenuId="view-collapseLevel" name="Zbaliť úroveň"/>
 					<Item subMenuId="view-uncollapseLevel" name="Rozbaliť úroveň"/>
 					<Item subMenuId="view-project" name="Projekt"/>
-					<Item subMenuId="encoding-characterSets"  name="Znaková sada"/>
-					<Item subMenuId="encoding-arabic"  name="Arabčina"/>
-					<Item subMenuId="encoding-baltic"  name="Pobaltské jazyky"/>
-					<Item subMenuId="encoding-celtic"  name="Keltština"/>
-					<Item subMenuId="encoding-cyrillic"  name="Cyrilika"/>
-					<Item subMenuId="encoding-centralEuropean"  name="Stredoeurópske jazyky"/>
-					<Item subMenuId="encoding-chinese"  name="Čínština"/>
-					<Item subMenuId="encoding-easternEuropean"  name="Východoeurópske jazyky"/>
-					<Item subMenuId="encoding-greek"  name="Gréčtina"/>
-					<Item subMenuId="encoding-hebrew"  name="Hebrejčina"/>
-					<Item subMenuId="encoding-japanese"  name="Japončina"/>
+					<Item subMenuId="encoding-characterSets" name="Znaková sada"/>
+					<Item subMenuId="encoding-arabic" name="Arabčina"/>
+					<Item subMenuId="encoding-baltic" name="Pobaltské jazyky"/>
+					<Item subMenuId="encoding-celtic" name="Keltština"/>
+					<Item subMenuId="encoding-cyrillic" name="Cyrilika"/>
+					<Item subMenuId="encoding-centralEuropean" name="Stredoeurópske jazyky"/>
+					<Item subMenuId="encoding-chinese" name="Čínština"/>
+					<Item subMenuId="encoding-easternEuropean" name="Východoeurópske jazyky"/>
+					<Item subMenuId="encoding-greek" name="Gréčtina"/>
+					<Item subMenuId="encoding-hebrew" name="Hebrejčina"/>
+					<Item subMenuId="encoding-japanese" name="Japončina"/>
 					<Item subMenuId="encoding-korean" name="Kórejčina"/>
 					<Item subMenuId="encoding-northEuropean" name="Severoeurópske jazyky"/>
 					<Item subMenuId="encoding-thai" name="Thajčina"/>
 					<Item subMenuId="encoding-turkish" name="Turečtina"/>
 					<Item subMenuId="encoding-westernEuropean" name="Západoeurópske jazyky"/>
 					<Item subMenuId="encoding-vietnamese" name="Vietnamčina"/>
-					<Item subMenuId="settings-import"  name="Import"/>
-					<Item subMenuId="tools-md5"  name="MD5"/>
+					<Item subMenuId="settings-import" name="Import"/>
+					<Item subMenuId="tools-md5" name="MD5"/>
 					<Item subMenuId="tools-sha256" name="SHA-256"/>
                 </SubEntries>
 
@@ -79,6 +80,7 @@
                     <Item id="41005" name="Zatvoriť všetky okrem aktuálneho"/>
 					<Item id="41009" name="Zatvoriť všetky vľavo"/>
 					<Item id="41018" name="Zatvoriť všetky vpravo"/>
+                    <Item id="41024" name="Zatvoriť všetky nezmenené"/>
                     <Item id="41006" name="&amp;Uložiť"/>
                     <Item id="41007" name="Ulo&amp;žiť všetko"/>
                     <Item id="41008" name="Uložiť &amp;ako..."/>
@@ -105,6 +107,7 @@
                     <Item id="42008" name="Zväčšiť odsadenie riadka"/>
                     <Item id="42009" name="Zmenšiť odsadenie riadka"/>
                     <Item id="42010" name="Duplikovať aktuálny riadok"/>
+                    <Item id="42077" name="Odstrániť po sebe idúce duplicitné riadky"/>
                     <Item id="42012" name="Rozdeliť riadky"/>
                     <Item id="42013" name="Spojiť riadky"/>
                     <Item id="42014" name="Posunúť aktuálny riadok nahor"/>
@@ -155,12 +158,12 @@
                     <Item id="42025" name="Uložiť aktuálne zaznamenané makro..."/>
                     <Item id="42026" name="Smer textu sprava doľava"/>
                     <Item id="42027" name="Smer textu zľava doprava"/>
-                    <Item id="42028" name="Nastaviť 'Iba na čítanie'"/>
+                    <Item id="42028" name="Nastaviť 'Len na čítanie'"/>
                     <Item id="42029" name="Skopírovať cestu k aktuálnemu súboru do schránky"/>
                     <Item id="42030" name="Skopírovať názov aktuálneho súboru do schránky"/>
                     <Item id="42031" name="Skopírovať cestu k aktuálnemu priečinku do schránky"/>
                     <Item id="42032" name="Spustiť makro viacnásobne..."/>
-                    <Item id="42033" name="Odstrániť označenie 'Iba na čítanie'"/>
+                    <Item id="42033" name="Odstrániť označenie 'Len na čítanie'"/>
                     <Item id="42035" name="Zakomentovať riadok"/>
                     <Item id="42036" name="Odkomentovať riadok"/>
                     <Item id="42055" name="Odstrániť prázdne riadky"/>
@@ -302,6 +305,7 @@
 					<Item id="48018" name="Úprava kontextového menu"/>
                     <Item id="48009" name="Nastavenie klávesových skratiek..."/>
                     <Item id="48011" name="Preferencie..."/>
+                    <Item id="48014" name="Otvoriť priečinok doplnkov..."/>
                     <Item id="48015" name="Správa doplnkov..."/>
                     <Item id="48501" name="Vytvoriť..."/>
                     <Item id="48502" name="Vytvoriť zo súborov..."/>
@@ -315,7 +319,7 @@
 					<Item id="50000" name="Dokončovanie funkcií"/>
                     <Item id="50001" name="Dokončovanie slov"/>
 					<Item id="50002" name="Pomôcka k parametrom funkcie"/>
-					<Item id="50006" name="Dokončovanie ciest k súborom/adresárom"/>
+					<Item id="50006" name="Dokončovanie ciest k súborom/priečinkom"/>
 
                     <Item id="42040" name="Otvoriť všetky nedávne súbory"/>
                     <Item id="42041" name="Vymazať zoznam nedávnych súborov"/>
@@ -328,28 +332,29 @@
             </Splitter>
 			
             <TabBar>
-                    <Item CMID="0"  name="Zatvoriť"/>
-                    <Item CMID="1"  name="Zatvoriť všetko OKREM tohto"/>
-                    <Item CMID="2"  name="Uložiť"/>
-                    <Item CMID="3"  name="Uložiť ako..."/>
-                    <Item CMID="4"  name="Tlačiť"/>
-                    <Item CMID="5"  name="Presunúť do druhého náhľadu"/>
-                    <Item CMID="6"  name="Klonovať do druhého náhľadu"/>
-					<Item CMID="7"  name="Celá cesta k súboru do schránky"/>
-					<Item CMID="8"  name="Názov súboru do schránky"/>
-					<Item CMID="9"  name="Cesta k aktuálnemu priečinku do schránky"/>
-					<Item CMID="10" name="Premenovať"/>
-					<Item CMID="11" name="Presunúť do Koša"/>
-					<Item CMID="12" name="Iba na čítanie"/>
-					<Item CMID="13" name="Odstrániť označenie 'Iba na čítanie'"/>
-					<Item CMID="14" name="Presunúť do novej inštancie"/>
-					<Item CMID="15" name="Otvoriť v novej inštancii"/>
-					<Item CMID="16" name="Obnoviť"/>
-                    <Item CMID="17" name="Zatvoriť všetky vľavo"/>
-                    <Item CMID="18" name="Zatvoriť všetky vpravo"/>
-                    <Item CMID="19" name="Otvoriť priečinok súboru v Prieskumníkovi"/>
-                    <Item CMID="20" name="Otvoriť priečinok súboru v Príkazovom riadku"/>
-                    <Item CMID="21" name="Otvoriť v predvolenom prehliadači"/>
+                <Item CMID="0"  name="Zatvoriť"/>
+                <Item CMID="1"  name="Zatvoriť všetko OKREM tohto"/>
+                <Item CMID="2"  name="Uložiť"/>
+                <Item CMID="3"  name="Uložiť ako..."/>
+                <Item CMID="4"  name="Tlačiť"/>
+                <Item CMID="5"  name="Presunúť do druhého náhľadu"/>
+                <Item CMID="6"  name="Klonovať do druhého náhľadu"/>
+                <Item CMID="7"  name="Celá cesta k súboru do schránky"/>
+                <Item CMID="8"  name="Názov súboru do schránky"/>
+                <Item CMID="9"  name="Cesta k aktuálnemu priečinku do schránky"/>
+                <Item CMID="10" name="Premenovať"/>
+                <Item CMID="11" name="Presunúť do Koša"/>
+                <Item CMID="12" name="Len na čítanie"/>
+                <Item CMID="13" name="Odstrániť označenie 'Len na čítanie'"/>
+                <Item CMID="14" name="Presunúť do novej inštancie"/>
+                <Item CMID="15" name="Otvoriť v novej inštancii"/>
+                <Item CMID="16" name="Obnoviť"/>
+                <Item CMID="17" name="Zatvoriť všetky vľavo"/>
+                <Item CMID="18" name="Zatvoriť všetky vpravo"/>
+                <Item CMID="19" name="Otvoriť priečinok súboru v Prieskumníkovi"/>
+                <Item CMID="20" name="Otvoriť priečinok súboru v Príkazovom riadku"/>
+                <Item CMID="21" name="Otvoriť v predvolenom prehliadači"/>
+                <Item CMID="22" name="Zatvoriť všetky nezmenené"/>
             </TabBar>
         </Menu>
 
@@ -359,7 +364,7 @@
 				<Item id="1722" name="Smerom dozadu"/>
                 <Item id="2" 	name="Zatvoriť"/>
                 <Item id="1620" name="Hľadať:"/>
-                <Item id="1603" name="Hľadať iba &amp;celé slová"/>
+                <Item id="1603" name="Hľadať len &amp;celé slová"/>
                 <Item id="1604" name="Rozlišovať &amp;malé/VEĽKÉ písmená"/>
                 <Item id="1605" name="Regulárny &amp;výraz"/>
                 <Item id="1606" name="Cy&amp;klicky"/>
@@ -891,7 +896,7 @@
                     <Item id="6256" name="Povoliť výber cez viacero riadkov"/>
                     <Item id="6161" name="Zoznam znakov výrazu"/>
                     <Item id="6162" name="Použiť predvolený zoznam znakov výrazu, tak ako je"/>
-                    <Item id="6163" name="Pridať vlastný znak ako časť výrazu (zvoľte, iba ak viete, čo robíte)"/>
+                    <Item id="6163" name="Pridať vlastný znak ako časť výrazu (zvoľte, len ak viete, čo robíte)"/>
                 </Delimiter>
 
                 <Cloud title="Úložisko">
@@ -912,7 +917,11 @@
                 </SearchEngine>
 
 				<MISC title="Rôzne">
-					<Item id="6307" name="Povoliť"/>
+					<ComboBox id="6347">
+						<Element name="Povoliť"/>
+						<Element name="Povoliť pre všetky otvorené súbory"/>
+						<Element name="Zakázať"/>
+					</ComboBox>
 					<Item id="6308" name="Minimalizovať do oblasti oznámení"/>
 					<Item id="6312" name="Automatické zisťovanie stavu súboru"/>
 					<Item id="6313" name="Tichá aktualizácia"/>
@@ -923,7 +932,7 @@
 					<Item id="6322" name="Prípona súboru relácie:"/>
 					<Item id="6323" name="Povoliť automatické aktualizácie programu Notepad++"/>
 					<Item id="6324" name="Prepínanie dokumentov (Ctrl+Tab)"/>
-					<Item id="6331" name="Zobrazovať v záhlaví okna iba názov súboru"/>
+					<Item id="6331" name="Zobrazovať v záhlaví okna len názov súboru"/>
                     <Item id="6334" name="Automatické zisťovanie kódovania znakov"/>
                     <Item id="6335" name="V SQL považovať spätné lomítko za escape znak"/>
                     <Item id="6337" name="Prípona súboru prac. priestoru:"/>
@@ -973,8 +982,8 @@
                 <Item id="1"    name="Hľadať všetko"/>
                 <Item id="2"    name="Zatvoriť"/>
                 <Item id="1711" name="Hľadať:"/>
-                <Item id="1713" name="Vyhľadávať iba v nájdených riadkoch"/>
-                <Item id="1714" name="Hľadať iba &amp;celé slová"/>
+                <Item id="1713" name="Vyhľadávať len v nájdených riadkoch"/>
+                <Item id="1714" name="Hľadať len &amp;celé slová"/>
                 <Item id="1715" name="Rozlišovať &amp;malé/VEĽKÉ písmená"/>
                 <Item id="1716" name="Režim vyhľadávania"/>
                 <Item id="1717" name="Normálny"/>
@@ -998,7 +1007,7 @@
             <SettingsOnCloudError title="Úložisko s nastaveniami programu" message="Zdá sa, že cesta k úložisku s nastaveniami je nastavená na jednotku určenú len na čítanie alebo na priečinok bez oprávnenia na zápis. Uloženie vašich nastavení bude zrušené. Znovu, prosím, nastavte zodpovedajúcu hodnotu v ponuke &quot;Nastavenia -> Preferencie... -> Úložisko&quot;."/>
             <FilePathNotFoundWarning title="Otvoriť súbor" message="Súbor, ktorý sa pokúšate otvoriť, neexistuje."/>
             <SessionFileInvalidError title="Reláciu nie je možné načítať" message="Súbor relácácie je poškodený alebo neplatný."/>
-            <DroppingFolderAsProjectModeWarning title="Neplatná operácia" message="Preťahovať môžete buď len súbory, alebo len adresáre. Nie oboje súčasne, pretože máte aktivovaný režim otvárania priečinka ako pracovného priestoru.&#x0A;&#x0A;Aby táto operácia fungovala, musíte povoliť položku &quot;Pri pretiahnutí priečinka myšou otvoriť súbory v priečinku, nie panel prac. priestoru&quot; v ponuke &quot;Nastavenia -> Preferencie... -> Predvolený priečinok&quot;."/>
+            <DroppingFolderAsProjectModeWarning title="Neplatná operácia" message="Preťahovať môžete buď len súbory, alebo len priečinky. Nie oboje súčasne, pretože máte aktivovaný režim otvárania priečinka ako pracovného priestoru.&#x0A;&#x0A;Aby táto operácia fungovala, musíte povoliť položku &quot;Pri pretiahnutí priečinka myšou otvoriť súbory v priečinku, nie panel prac. priestoru&quot; v ponuke &quot;Nastavenia -> Preferencie... -> Predvolený priečinok&quot;."/>
             <SortingError title="Chyba usporiadania" message="Nie je možné vykonať číselné usporiadanie kvôli riadku $INT_REPLACE$."/>
             <ColumnModeTip title="Tip k stĺpcovému režimu" message="Na prepnutie do stĺpcového režimu použite, prosím, &quot;ALT + Výber myšou&quot; alebo &quot;Alt + Shift + Šípka&quot;."/>
             <BufferInvalidWarning title="Uloženie zlyhalo" message="Uloženie zlyhalo: Neplatná vyrovnávacia pamäť."/>
@@ -1037,6 +1046,7 @@
 			<OpenInAdminMode title="Uloženie zlyhalo" message="Súbor nie je možné uložiť, môže byť chránený. Chcete spustiť Notepad++ v režime správcu?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Uloženie zlyhalo" message="Súbor nie je možné uložiť, môže byť chránený. Chcete spustiť Notepad++ v režime správcu?"/>
             <OpenInAdminModeFailed title="Otvorenie v režime správcu zlyhalo" message="Notepad++ nie je možné spustiť v režime správcu."/>
+            <ViewInBrowser title="Zobraziť aktuálny súbor v prehliadači" message="Aplikáciu sa nepodarilo vo vašom systéme nájsť."/>
 		</MessageBox>
 
 		<ClipboardHistory>
@@ -1137,7 +1147,7 @@
 
         <MiscStrings>
             <!-- $INT_REPLACE$ and $STR_REPLACE$ are a place holders, don't translate these place holders -->
-            <word-chars-list-tip value="Toto nastavenie vám umožní zahrnúť dodatočný znak medzi aktuálne slovné znaky pri výbere dvojklikom alebo pri vyhľadávaní so zapnutou voľbou &quot;Hľadať iba celé slová&quot;."/>
+            <word-chars-list-tip value="Toto nastavenie vám umožní zahrnúť dodatočný znak medzi aktuálne slovné znaky pri výbere dvojklikom alebo pri vyhľadávaní so zapnutou voľbou &quot;Hľadať len celé slová&quot;."/>
             <word-chars-list-warning-begin value="Pozor: V zozname znakov máte "/>
             <word-chars-list-space-warning value="$INT_REPLACE$ medzeru(-y)"/>
             <word-chars-list-tab-warning value="$INT_REPLACE$ tabulátor(-y)"/>
@@ -1147,30 +1157,30 @@
             <cloud-select-folder value="Vyberte priečinok pre načítanie/uloženie nastavení programu Notepad++"/>
             <shift-change-direction-tip value="Pre vyhľadávanie v opačnom smere použite Shift+Enter"/>
             <two-find-buttons-tip value="Režim dvoch tlačidiel"/>
-            <find-status-top-reached value="Hľadať: Našiel sa posledný prípad hľadaného výrazu. Dospeli ste na začiatok dokumentu."/>
-            <find-status-end-reached value="Hľadať: Našiel sa prvý prípad hľadaného výrazu. Dospeli ste na koniec dokumentu."/>
-            <find-status-replaceinfiles-1-replaced value="Nahradiť v súboroch: Bol nahradený 1 prípad hľadaného výrazu."/>
-            <find-status-replaceinfiles-nb-replaced value="Nahradiť v súboroch: Bolo nahradených $INT_REPLACE$ prípadov hľadaného výrazu."/>
+            <find-status-top-reached value="Hľadať: Našiel sa posledný výskyt hľadaného výrazu. Dospeli ste na začiatok dokumentu."/>
+            <find-status-end-reached value="Hľadať: Našiel sa prvý výskyt hľadaného výrazu. Dospeli ste na koniec dokumentu."/>
+            <find-status-replaceinfiles-1-replaced value="Nahradiť v súboroch: Bol nahradený 1 výskyt hľadaného výrazu."/>
+            <find-status-replaceinfiles-nb-replaced value="Nahradiť v súboroch: Bolo nahradených $INT_REPLACE$ výskytov hľadaného výrazu."/>
             <find-status-replaceinfiles-re-malformed value="Nahradiť v otvorených súboroch: Neplatný regulárny výraz"/>
-            <find-status-replaceinopenedfiles-1-replaced value="Nahradiť v otvorených súboroch: Bol nahradený 1 prípad hľadaného výrazu."/>
-            <find-status-replaceinopenedfiles-nb-replaced value="Nahradiť v otvorených súboroch: Bolo nahradených $INT_REPLACE$ prípadov hľadaného výrazu."/>
+            <find-status-replaceinopenedfiles-1-replaced value="Nahradiť v otvorených súboroch: Bol nahradený 1 výskyt hľadaného výrazu."/>
+            <find-status-replaceinopenedfiles-nb-replaced value="Nahradiť v otvorených súboroch: Bolo nahradených $INT_REPLACE$ výskytov hľadaného výrazu."/>
             <find-status-mark-re-malformed value="Označiť: Neplatný regulárny výraz vyhľadávania"/>
             <find-status-invalid-re value="Hľadať: Neplatný regulárny výraz"/>
-            <find-status-mark-1-match value="1 zhodný výraz"/>
-            <find-status-mark-nb-matches value="$INT_REPLACE$ zhodných výrazov"/>
+            <find-status-mark-1-match value="Označiť: 1 zhodný výraz"/>
+            <find-status-mark-nb-matches value="Označiť: $INT_REPLACE$ zhodných výrazov"/>
             <find-status-count-re-malformed value="Spočítať: Neplatný regulárny výraz vyhľadávania"/>
             <find-status-count-1-match value="Spočítať: 1 zhodný výraz"/>
             <find-status-count-nb-matches value="Spočítať: $INT_REPLACE$ zhodných výrazov"/>
             <find-status-replaceall-re-malformed value="Nahradiť všetko: Neplatný regulárny výraz"/>
-            <find-status-replaceall-1-replaced value="Nahradiť všetko: Bol nahradený 1 prípad hľadaného výrazu."/>
-            <find-status-replaceall-nb-replaced value="Nahradiť všetko: Bolo nahradených $INT_REPLACE$ prípadov hľadaného výrazu."/>
-            <find-status-replaceall-readonly value="Nahradiť všetko: Text nie je možné nahradiť. Aktuálny dokument je iba na čítanie."/>
-            <find-status-replace-end-reached value="Nahradiť: Bol nahradený prvý prípad hľadaného výrazu. Dospeli ste na koniec dokumentu."/>
-            <find-status-replace-top-reached value="Nahradiť: Bol nahradený posledný prípad hľadaného výrazu. Dospeli ste na začiatok dokumentu."/>
-            <find-status-replaced-next-found value="Nahradiť: Bol nahradený 1 prípad hľadaného výrazu. Našla sa ďalšia zhoda."/>
-            <find-status-replaced-next-not-found value="Nahradiť: Bol nahradený 1 prípad hľadaného výrazu. Ďalšia zhoda sa nenašla."/>
+            <find-status-replaceall-1-replaced value="Nahradiť všetko: Bol nahradený 1 výskyt hľadaného výrazu."/>
+            <find-status-replaceall-nb-replaced value="Nahradiť všetko: Bolo nahradených $INT_REPLACE$ výskytov hľadaného výrazu."/>
+            <find-status-replaceall-readonly value="Nahradiť všetko: Text nie je možné nahradiť. Aktuálny dokument je len na čítanie."/>
+            <find-status-replace-end-reached value="Nahradiť: Bol nahradený prvý výskyt hľadaného výrazu. Dospeli ste na koniec dokumentu."/>
+            <find-status-replace-top-reached value="Nahradiť: Bol nahradený posledný výskyt hľadaného výrazu. Dospeli ste na začiatok dokumentu."/>
+            <find-status-replaced-next-found value="Nahradiť: Bol nahradený 1 výskyt hľadaného výrazu. Našla sa ďalšia zhoda."/>
+            <find-status-replaced-next-not-found value="Nahradiť: Bol nahradený 1 výskyt hľadaného výrazu. Ďalšia zhoda sa nenašla."/>
             <find-status-replace-not-found value="Nahradiť: Nenašla sa žiadna zhoda."/>
-            <find-status-replace-readonly value="Nahradiť: Text nie je možné nahradiť. Aktuálny dokument je iba na čítanie."/>
+            <find-status-replace-readonly value="Nahradiť: Text nie je možné nahradiť. Aktuálny dokument je len na čítanie."/>
             <find-status-cannot-find value="Hľadať: Text &quot;$STR_REPLACE$&quot; sa nepodarilo nájsť."/>
             <finder-find-in-finder value="Vyhľadať v týchto výsledkoch hľadania..."/>
             <finder-close-this value="Zatvoriť tento vyhľadávač"/>
@@ -1180,6 +1190,18 @@
             <finder-select-all value="Vybrať všetko"/>
             <finder-clear-all value="Vymazať všetko"/>
             <finder-open-all value="Otvoriť všetko"/>
+            <common-ok value="OK"/>
+			<common-cancel value="Zrušiť"/>
+			<common-name value="Názov: "/>
+			<tabrename-title value="Premenovať aktuálnu kartu"/>
+			<tabrename-newname value="Nový názov: "/>
+			<recent-file-history-maxfile value="Počet súb.: "/>
+			<language-tabsize value="Veľkosť tab.: "/>
+			<userdefined-title-new value="Vytvoriť nový jazyk..."/>
+			<userdefined-title-save value="Uložiť aktuálny jazyk ako..."/>
+			<userdefined-title-rename value="Zmeniť názov aktuálneho jazyka"/>
+			<autocomplete-nb-char value="Počet znakov: "/>
+			<edit-verticaledge-nb-col value="Počet stĺpcov: "/>
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
