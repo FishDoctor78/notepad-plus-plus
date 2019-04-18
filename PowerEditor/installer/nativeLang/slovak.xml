@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="Slovenčina" filename="slovak.xml" version="7.6.5">
+	<Native-Langue name="Slovenčina" filename="slovak.xml" version="7.6.6">
 		<Menu>
 			<Main>
                 <!-- Main Menu Entries -->
